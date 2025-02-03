@@ -1,0 +1,91 @@
+/* App.css */
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  text-align: center;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px;
+}
+
+.ant-tabs-nav {
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.ant-tabs-tab {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #6c63ff;
+  border-bottom: 2px solid #6c63ff;
+}
+
+.ant-tabs-ink-bar {
+  display: none;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ant-input,
+.ant-input-password {
+  border: 2px solid #ccc;
+  border-radius: 25px;
+  height: 45px;
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+
+.ant-input:focus,
+.ant-input-password:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 3px rgba(108, 99, 255, 0.5);
+}
+
+.ant-btn {
+  background: #6c63ff;
+  color: #fff;
+  border: none;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.ant-btn:hover {
+  background: #584fc6;
+}
+
+.additional-text {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 1rem;
+}
+
+.additional-text a {
+  color: #6c63ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.additional-text a:hover {
+  text-decoration: underline;
+}
