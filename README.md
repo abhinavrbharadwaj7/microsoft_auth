@@ -43,13 +43,13 @@ npm install
 Create a `.env` file in the `backend` directory and add the following:
 
 ```sh
+MONGO_URI=your_mongodb_connection_string
 PORT=5000
-MONGODB_URI=mongodb://localhost:27017/my_poc_database
-AZURE_AD_TENANT_ID=f8cdef31-a31e-4b4a-93e4-5f571e91255a
-AZURE_AD_CLIENT_ID=5c8def70-31ba-4255-a5a6-3ac6dc699b8d
-AZURE_AD_CLIENT_SECRET=400f508f-65da-4c17-b27d-3402c01d16cb
-AZURE_AD_REDIRECT_URI=http://localhost:5000/auth/microsoft/callback
-SESSION_SECRET=MKWQ8GskLFcnA9b6hADt6dMZwmu2j9Gu
+CLIENT_ID=your_azure_client_id
+CLIENT_SECRET=your_azure_client_secret
+TENANT_ID=your_azure_tenant_id
+REDIRECT_URI=http://localhost:3000
+SESSION_SECRET="32 number & characters"
 CORS_ORIGINS=http://localhost:3000,http://localhost:5000
 FRONTEND_ORIGIN=http://localhost:3000
 NODE_ENV=development
