@@ -64,7 +64,7 @@ Replace placeholders with your actual credentials.
 
 ```sh
 cd backend
-npm start
+npm run dev
 ```
 
 By default, the backend runs on `http://localhost:5000`.
