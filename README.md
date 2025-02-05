@@ -17,7 +17,7 @@ Ensure you have the following installed on your system:
 
 ```sh
 git clone https://github.com/abhinavrbharadwaj7/microsoft_auth.git
-cd microsoft_auth
+
 ```
 
 ### Install Dependencies
